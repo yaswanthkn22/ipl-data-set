@@ -50,7 +50,7 @@ def plot ():
                 
                 teams_and_matches[team][index]=match_count
             else :
-                teams_and_matches[team]=[0] * 10
+                teams_and_matches[team]=[0] * len(seasons)
                 teams_and_matches[team][index]=match_count
     
     print(teams_and_matches)
